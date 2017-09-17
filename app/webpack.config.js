@@ -26,7 +26,7 @@ module.exports = {
       {
         test: /(\.css|\.scss|\.sass)$/,
         include: [ path.resolve(__dirname, './client/css') ],
-        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+        loaders: ['style-loader', 'css-loader'],
       },
     ]
   },
